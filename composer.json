@@ -1,0 +1,21 @@
+{
+    "name": "yurii/phpproject",
+    "description": "site on php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Yurii\\Phpproject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Malevych Yurii",
+            "email": "yuramvm1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6"
+    }
+}
